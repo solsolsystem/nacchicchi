@@ -35,6 +35,10 @@ h2:after {
   background: #fff;
 }*/
 
+body{
+	background-color: #fff8dc;
+}
+
 /*タイトル*/
 
 h2 {
@@ -44,7 +48,7 @@ h2 {
   margin-left: 20px;
   padding: 0.5rem 1rem 0.5rem 1rem;
   color: #fff;
-  background: #8a2be2;
+  background: #4682b4;
 }
 
 h2:before {
@@ -54,7 +58,7 @@ h2:before {
   content: '';
   border-width: 14px 17px 14px 0;
   border-style: solid;
-  border-color: transparent #8a2be2 transparent transparent;
+  border-color: transparent #4682b4 transparent transparent;
 }
 
 h2:after {
@@ -78,36 +82,77 @@ h2:after {
 
 
 
-.form-label{
+/*.form-label{
 	display: block;
 	width: 7em;
 	margin: 5px;
 	background: #EFEFEF;
-}
+	border: none;
+}*/
+
 
 .form-control0{
-	display: block;
-	width: 200px;
-	margin: 7px;
-	background: #b0c4de;
+	/*display: block;*/
+	/*width: 200px;
+*/	margin: 20px 10px -20px 0px;
+	background: #ffffff;
+	/*border: none;*/
+	/*border-radius: 20% 20% 20% 20%/70% 70% 70% 70%;*/
 
 }
 
 .form-control1{
-	display: block;
-	width: 200px;
-	margin: 7px;
-	background: #f0e68c;
-
+	/*display: block;
+	width: 200px;*/
+	margin: 20px -4px 5px 10px;
+	background: #ffffff;
+	/*border: none;*/
 }
+
 
 .form-control2{
-	display: block;
-	width: 200px;
-	margin: 7px;
-	background: #d8bfd8;
-
+	/*display: block;
+	width: 200px;*/
+	margin: -20px 10px 0px 0px;
+	background: #ffffff;
+	/*border: none;*/
 }
+
+.form-control3{
+	display: block;
+	width: 80px;
+	margin: -5px 3px 0px;
+	background: #ffffff;
+	/*border: none;*/
+}
+
+
+/*枠お試し*/
+.mb-3 {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+input {
+  background: #efefef;
+  border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+  padding: 1%;
+  width: 150px;
+  margin: 1px;
+}
+ {
+  border: 2px inset #333;
+}
+.form-control1 {
+  border: 1px dotted #333;
+}
+.form-control2 {
+  border: 1px dashed #333;
+}
+.form-control0 {
+  border: 1px dotted #333;
+}
+
 
 /*曜日ボタン*/
 
@@ -118,46 +163,46 @@ h2:after {
 .gold,
 .all {
   color: #fff;
-  padding: 5%;
-  width: 70px;
-  height: 60px;
+  padding: 1%;
+  width: 40px;
+  height: 40px;
+  font-size:small;
   text-align: center;
   border: none;
-  margin: 0px 0px 0px 5px;
+  margin: 0px -10px -10px 3px;
   line-height:2px;
-
   mix-blend-mode: multiply;
 }
 
 
 .moon{
-  background: #f66;
-  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+  background: #b0c4de;
+  border-radius: 30% 50% 50% 70%/50% 50% 70% 60%;
 }
 
 .fire{
-	background: #f92;
+	background: #ff6347;
   border-radius: 80% 30% 50% 50%/50%;
 }
 
 .water{
-	background: #fc2;
-  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+	background: #4682b4;
+  border-radius: 40% 30% 50% 40%/30% 50% 50% 50%;
 }
 
 .wood{
-	background: #f66;
-  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+	background: #6b8e23;
+  border-radius: 50% 60% 50% 70%/50% 50% 70% 60%;
 }
 
 .gold{
-	background: #fc2;
+	background: #ffd700;
   border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
 }
 
 .all{
 	background: #f92;
-  border-radius: 80% 30% 50% 50%/50%;
+  border-radius: 30% 70% 50% 80%/50%;
 }
 
 
