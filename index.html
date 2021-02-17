@@ -33,22 +33,21 @@
 <body>
 
   <!-- <header class="nananana">(仮)そるそるシステム</header> -->
-<br/>
   <h2 style="font-size:10px">そるそるシステム(仮)</h2>
 
 <br/>
 
 <form mrthod="get" action="index.html" >
 
-  <p style="font-size:x-small">
-  持参
+  <p style="font-size:x-small" class="jii">
+  - 持参 -
   </p>
 
     <div class="mb-3">
   <!-- <label for="formControlInput0" class="form-label" style="font-size:x-small">持参</label> -->
-  <input type="bg" class="form-control1" id="formControlInput0" placeholder="部荷物" style="font-size:small"> 
+  <input type="bg" class="form-control0" id="formControlInput0" placeholder="部荷物" style="font-size:x-small"> 
   <!-- <label for="formControlInput1" class="form-label"></label> -->
-  <input type="bg" class="form-control1" id="formControlInput1" placeholder="ゴール" style="font-size:small">
+  <input type="bg" class="form-control0" id="formControlInput1" placeholder="ゴール" style="font-size:x-small">
 </div>
 
 </form>
@@ -63,14 +62,14 @@
 
 <body>
 
-  <p style="font-size:x-small">
-  持ち帰り
+  <p style="font-size:x-small" class="mochi">
+  - 持ち帰り -
   </p>
     <!-- <div class="mb-3">
   <label for="formControlInput2" class="form-label" style="font-size:x-small">持ち帰り</label> -->
-  <input type="bg" class="form-control1" id="formControlInput2" placeholder="部荷物" style="font-size:small">
+  <input type="bg" class="form-control1" id="formControlInput2" placeholder="部荷物" style="font-size:x-small">
   <!-- <label for="formControlInput3" class="form-label"></label> -->
-  <input type="bg" class="form-control1" id="formControlInput3" placeholder="ゴール" style="font-size:small">
+  <input type="bg" class="form-control1" id="formControlInput3" placeholder="ゴール" style="font-size:x-small">
 </div>
 
 <!-- <body>
@@ -83,15 +82,15 @@
 
 
 
-  <p style="font-size:x-small">
-  メンバー
+  <p style="font-size:x-small" class="mem">
+  - メンバー -
   </p>
 
     <div class="mb-3">
       <!-- <label for="formControlInput4" class="form-label" style="font-size:x-small">メンバー</label> -->
-  <input type="bg" class="form-control2" id="formControlInput4" placeholder="持参できる人" style="font-size:small">
+  <input type="bg" class="form-control2" id="formControlInput4" placeholder="持参できる人" style="font-size:x-small">
  <!--  <label for="formControlInput5" class="form-label"></label> -->
-  <input type="bg" class="form-control2" id="formControlInput5" placeholder="持ち帰りできる人" style="font-size:small">
+  <input type="bg" class="form-control2" id="formControlInput5" placeholder="持ち帰りできる人" style="font-size:x-small">
 </div>
 
 <!-- <body>
@@ -100,11 +99,13 @@
   <input type="bg" class="form-control" id="formControlInput5" placeholder="持ち帰りできる人">
 </div> -->
 
+ <p style="font-size:x-small" class="mem">
+  - 参加部員リスト -
+  </p>
 
-
-<div class="form-label" style="font-size:x-small">
+<!-- <div class="san" style="font-size:x-small">
   参加部員リスト
-</div>
+</div> -->
 
 <body>
 <!-- <button type="button" class="btn btn-outline-primary">月</button>
@@ -157,7 +158,7 @@ document.getElementsByTagName('button')[5].addEventListener('click', () => {
 <body>
 
 <div id="div4"></div>
-<input type="button" class="form-control3" value="スタート" onclick="clickBtn7()">
+<input type="button" class="form-control3" value="スタート" onclick="clickBtn7()" style="font-size:small">
 
 
 <script>
