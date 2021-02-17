@@ -157,14 +157,14 @@ document.getElementsByTagName('button')[5].addEventListener('click', () => {
 
 <body>
 
-<div id="div4"></div>
-<input type="button" class="form-control3" value="スタート" onclick="clickBtn7()" style="font-size:small">
+<div id="div4" class="result"></div>
+<input type="button" class="form-control3" value="スタート" onclick="clickBtn7();clickBtn8()" style="font-size:small">
 
 
 <script>
 function clickBtn7(){
   const div4 = document.getElementById("div4");
-  
+
   
 
      let 行部荷物 = document.getElementById("formControlInput0").value;
@@ -380,9 +380,9 @@ function clickBtn7(){
 
 
 
+  
 
-
-
+  
 
 
     if (!div4.hasChildNodes()){
@@ -396,15 +396,17 @@ function clickBtn7(){
     p2.appendChild(text2);
     div4.appendChild(p2);
 
-    // const p3 = document.createElement("p");
-    // const text3 = document.createTextNode();
-    // p3.appendChild(text3);
-    // div4.appendChild(p3);
+   
 
     const p4 = document.createElement("p");
     const text4 = document.createTextNode("(持ち帰り)→" + getArraysIntersect1(array03, array04));
     p4.appendChild(text4);
     div4.appendChild(p4);
+
+    const p3 = document.createElement("p");
+    const text3 = document.createTextNode("--");
+    p3.appendChild(text3);
+    div4.appendChild(p3);
 
     const p5 = document.createElement("p");
     const text5 = document.createTextNode("どっちもない人");
@@ -416,15 +418,17 @@ function clickBtn7(){
     p6.appendChild(text6);
     div4.appendChild(p6);
 
-    // const p7 = document.createElement("p");
-    // const text7 = document.createTextNode();
-    // p7.appendChild(text7);
-    // div4.appendChild(p7);
+
 
     const p8 = document.createElement("p");
     const text8 = document.createTextNode("(持ち帰り)→" + getArraysDiff1(array07, array08));
     p8.appendChild(text8);
     div4.appendChild(p8);
+
+    const p7 = document.createElement("p");
+    const text7 = document.createTextNode("--");
+    p7.appendChild(text7);
+    div4.appendChild(p7);
 
     const p9 = document.createElement("p");
     const text9 = document.createTextNode("部荷物");
@@ -436,15 +440,17 @@ function clickBtn7(){
     p10.appendChild(text10);
     div4.appendChild(p10);
 
-    // const p11 = document.createElement("p");
-    // const text11 = document.createTextNode();
-    // p11.appendChild(text11);
-    // div4.appendChild(p11);
+  
 
     const p12 = document.createElement("p");
     const text12 = document.createTextNode("(持ち帰りなし→)" + getArraysDiff3(array11, array12));
     p12.appendChild(text12);
     div4.appendChild(p12);
+
+    const p11 = document.createElement("p");
+    const text11 = document.createTextNode("--");
+    p11.appendChild(text11);
+    div4.appendChild(p11);
 
     const p13 = document.createElement("p");
     const text13 = document.createTextNode("ゴール");
@@ -470,7 +476,9 @@ function clickBtn7(){
   }
 }
 
-</script>
+
+
+</script> 
 
 <!-- <div class="circle-1">
   <p>Praesent nec erat urna. Integer feugiat vel libero id porta. Aenean elementum lectus vitae est fringilla iaculis. Nulla aliquet sem pulvinar.</p>
