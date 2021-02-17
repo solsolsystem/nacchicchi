@@ -35,6 +35,8 @@ h2:after {
   background: #fff;
 }*/
 
+/*タイトル*/
+
 h2 {
   position: fixed;
   display: inline-block;
@@ -72,6 +74,8 @@ h2:after {
 
 
 
+/*入力欄*/
+
 
 
 .form-label{
@@ -81,29 +85,166 @@ h2:after {
 	background: #EFEFEF;
 }
 
-.form-control{
+.form-control0{
 	display: block;
-	width: 140px;
-	margin: 10px;
-	background: #E0FFFF;
+	width: 200px;
+	margin: 7px;
+	background: #b0c4de;
 
 }
 
-/*.form-control1{
+.form-control1{
 	display: block;
-	width: 140px;
-	margin: 1em 0;
-	background: #B0C4DE;
+	width: 200px;
+	margin: 7px;
+	background: #f0e68c;
 
 }
 
 .form-control2{
 	display: block;
-	width: 140px;
-	margin: 1em 0;
-	background: #F5F5F5;
+	width: 200px;
+	margin: 7px;
+	background: #d8bfd8;
 
+}
+
+/*曜日ボタン*/
+
+.moon,
+.fire,
+.water,
+.wood,
+.gold,
+.all {
+  color: #fff;
+  padding: 5%;
+  width: 6px;
+  height: 6px;
+  font-size: small;
+  text-align: center;
+  border: none;
+  margin: 0 -5px;
+  line-height:2px;
+  
+  mix-blend-mode: multiply;
+}
+
+
+.moon{
+  background: #f66;
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+}
+
+.fire{
+	background: #f92;
+  border-radius: 80% 30% 50% 50%/50%;
+}
+
+.water{
+	background: #fc2;
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}
+
+.wood{
+	background: #f66;
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+}
+
+.gold{
+	background: #fc2;
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}
+
+.all{
+	background: #f92;
+  border-radius: 80% 30% 50% 50%/50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.circle-1,
+.circle-2,
+.circle-3 {
+  color: #fff;
+  padding: 5%;
+  width: 180px;
+  height: 180px;
+  margin: 0 -15px;
+  mix-blend-mode: multiply;
+}
+.circle-1 {
+  background: #f66;
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+}
+.circle-2 {
+  background: #f92;
+  border-radius: 80% 30% 50% 50%/50%;
+}
+.circle-3 {
+  background: #fc2;
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: #ffd;
+}
+
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
 }*/
+
+/*.btnbtn-outline-primary,
+.circle-2,
+.circle-3 {
+  color: #fff;
+  padding: 5%;
+  width: 180px;
+  height: 180px;
+  margin: 0 -15px;
+  mix-blend-mode: multiply;
+}
+.btnbtn-outline-primary {
+  background: #f66;
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+}
+.circle-2 {
+  background: #f92;
+  border-radius: 80% 30% 50% 50%/50%;
+}
+.circle-3 {
+  background: #fc2;
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background: #ffd;
+}
+
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+}
+*/
+
 
 
 
