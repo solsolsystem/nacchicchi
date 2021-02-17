@@ -27,6 +27,9 @@
 </head>
 
 
+
+
+
 <body>
 
   <!-- <header class="nananana">(仮)そるそるシステム</header> -->
@@ -38,9 +41,9 @@
 <form mrthod="get" action="index.html" oninpit="result.value = (nana.value)">
     <div class="mb-3">
   <label for="formControlInput0" class="form-label" style="font-size:x-small">持参</label>
-  <input type="bg" name="nana" class="form-control" id="formControlInput0" placeholder="部荷物" style="font-size:small"> 
+  <input type="bg" name="nana" class="form-control0" id="formControlInput0" placeholder="部荷物" style="font-size:small"> 
   <label for="formControlInput1" class="form-label"></label>
-  <input type="bg" class="form-control" id="formControlInput1" placeholder="ゴール" style="font-size:small">
+  <input type="bg" class="form-control1" id="formControlInput1" placeholder="ゴール" style="font-size:small">
 </div>
 
 </form>
@@ -56,9 +59,9 @@
 <body>
     <div class="mb-3">
   <label for="formControlInput2" class="form-label" style="font-size:x-small">持ち帰り</label>
-  <input type="bg" class="form-control" id="formControlInput2" placeholder="部荷物" style="font-size:small">
+  <input type="bg" class="form-control0" id="formControlInput2" placeholder="部荷物" style="font-size:small">
   <label for="formControlInput3" class="form-label"></label>
-  <input type="bg" class="form-control" id="formControlInput3" placeholder="ゴール" style="font-size:small">
+  <input type="bg" class="form-control1" id="formControlInput3" placeholder="ゴール" style="font-size:small">
 </div>
 
 <!-- <body>
@@ -72,9 +75,9 @@
 <body>
     <div class="mb-3">
   <label for="formControlInput4" class="form-label" style="font-size:x-small">メンバー</label>
-  <input type="bg" class="form-control" id="formControlInput4" placeholder="持参できる人" style="font-size:small">
+  <input type="bg" class="form-control2" id="formControlInput4" placeholder="持参できる人" style="font-size:small">
   <label for="formControlInput5" class="form-label"></label>
-  <input type="bg" class="form-control" id="formControlInput5" placeholder="持ち帰りできる人" style="font-size:small">
+  <input type="bg" class="form-control2" id="formControlInput5" placeholder="持ち帰りできる人" style="font-size:small">
 </div>
 
 <!-- <body>
@@ -90,39 +93,46 @@
 </div>
 
 <body>
-
-<button type="button" class="btn btn-outline-secondary">月</button>
+<!-- <button type="button" class="btn btn-outline-primary">月</button>
 <button type="button" class="btn btn-outline-danger">火</button>
-<button type="button" class="btn btn-outline-success">木</button>
 <button type="button" class="btn btn-outline-info">水</button>
+<button type="button" class="btn btn-outline-success">木</button>
 <button type="button" class="btn btn-outline-warning">金</button>
-<button type="button" class="btn btn-outline-primary">土</button>
-<button type="button" class="btn btn-outline-dark">日</button>
+<button type="button" class="btn btn-outline-secondary">全</button> -->
+
+<button type="button" class="moon" >月</button>
+<button type="button" class="fire">火</button>
+<button type="button" class="water">水</button>
+<button type="button" class="wood">木</button>
+<button type="button" class="gold">金</button>
+<button type="button" class="all">全</button>
+
+
 
 
 <script>
   //持参・持ち帰りできるメンバーをアラートで表示
 document.getElementsByTagName('button')[0].addEventListener('click', () => {
-  window.alert('はお めい るん えるさ ぺこ そら なこ ひま らい ふたば たくみ めろ さくら うみ うる りむ ゆず えす のあ にと りあ ありぃ はれ れい じぇ べあ おり とわ おく なる るーく かおる やまと ぷりま まりん あき もと かの じる しー いる');
+  window.alert('月持参・持ち帰り(来年の時間割わかったら反映させるね)');
 })
 document.getElementsByTagName('button')[1].addEventListener('click', () => {
-  window.alert('火持参・持ち帰り');
+  window.alert('火持参・持ち帰り(わっほーい)');
 })
 document.getElementsByTagName('button')[2].addEventListener('click', () => {
-  window.alert('水持参・持ち帰り');
+  window.alert('水持参・持ち帰り(いえいいえい)');
 })
 document.getElementsByTagName('button')[3].addEventListener('click', () => {
-  window.alert('木持参・持ち帰り');
+  window.alert('木持参・持ち帰り(がんばれがんばれ)');
 })
 document.getElementsByTagName('button')[4].addEventListener('click', () => {
-  window.alert('金持参・持ち帰り');
+  window.alert('金持参・持ち帰り(イエローイエロー)');
 })
 document.getElementsByTagName('button')[5].addEventListener('click', () => {
-  window.alert('土持参・持ち帰り');
+  window.alert('はれ べあ ゆう らい るーく えいと えす きーま こう せれ そら てる とわ にと ふう りあ なる えるさ おり かおる なこ ぷら りく れい じぇりー はち りい かれん あお ありぃ うみ うる おく きよ しん ちゃい つくし なな なの のあ はお ふたば ぺこ めろ ゆあ ゆず らら りた りむ ふぃあ わい ころん さくら るん');
 })
-document.getElementsByTagName('button')[6].addEventListener('click', () => {
-  window.alert('日持参・持ち帰り');
-})
+//document.getElementsByTagName('button')[6].addEventListener('click', () => {
+  //window.alert('はれ べあ ゆう らい るーく えいと えす きーま こう せれ そら てる とわ にと ふう りあ なる えるさ おり かおる なこ ぷら りく れい じぇりー はち りい かれん あお ありぃ うみ うる おく きよ しん ちゃい つくし なな なの のあ はお ふたば ぺこ めろ ゆあ ゆず らら りた りむ ふぃあ わい ころん さくら るん');
+//})
 
 </script>
 </body>
@@ -446,6 +456,18 @@ function clickBtn7(){
 }
 
 </script>
+
+<!-- <div class="circle-1">
+  <p>Praesent nec erat urna. Integer feugiat vel libero id porta. Aenean elementum lectus vitae est fringilla iaculis. Nulla aliquet sem pulvinar.</p>
+</div>
+
+<div class="circle-2">
+  <p>Suspendisse eros augue, gravida sed interdum at, laoreet vel sem. Pellentesque auctor hendrerit, sit amet interdum nisl aliquam. Nunc vel porttitor augue.</p>
+</div>
+
+<div class="circle-3">
+  <p>Integer ultrices a nulla sit amet aliquet. Praesent quis gravida turpis. Donec viverra venenatis pulvinar. Sed ut luctus mauris, in pulvinar turpis. Donec sodales velit consequat.</p>
+</div> -->
 
 <link rel="stylesheet" href="index.css">
 
