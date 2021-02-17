@@ -1,213 +1,255 @@
+<!doctype html>
+<html class="no-js" lang="">
 
-/*.nananana{
-	font-size:large;
-	background:linear-gradient(transparent 50%, #FFFF66 80%);
-}*/
+<head>
+  <meta charset="utf-8">
+  
+<title></title>
+  
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-/*h2 {
-  position: relative;
-  display: inline-block;
-  height: 64px;
-  margin-left: 30px;
-  padding: 1rem 2rem 1rem 3rem;
-  color: #fff;
-  background: #8a2be2;
-}
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
 
-h2:before {
-  position: absolute;
-  top: 0;
-  left: -30px;
-  content: '';
-  border-width: 32px 30px 32px 0;
-  border-style: solid;
-  border-color: transparent #8a2be2 transparent transparent;
-}
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
 
-h2:after {
-  position: absolute;
-  top: calc(50% - 7px);
-  left: -10px;
-  width: 14px;
-  height: 14px;
-  content: '';
-  border-radius: 50%;
-  background: #fff;
-}*/
+  <!-- Place favicon.ico in the root directory -->
 
-body{
-	background-color: #fff8dc;
-}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-/*タイトル*/
+  <meta name="theme-color" content="#fafafa">
 
-h2 {
-  position: fixed;
-  display: inline-block;
-  height: 1em 0;
-  margin-left: 20px;
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  color: #fff;
-  background: #4682b4;
-}
 
-h2:before {
-  position: absolute;
-  top: 0;
-  left: -17px;
-  content: '';
-  border-width: 14px 17px 14px 0;
-  border-style: solid;
-  border-color: transparent #4682b4 transparent transparent;
-}
-
-h2:after {
-  position: absolute;
-  top: calc(50% - 3px);
-  left: -5px;
-  width: 5px;
-  height: 5px;
-  content: '';
-  border-radius: 50%;
-  background: #fff;
-}
+</head>
 
 
 
 
 
+<body>
+
+  <!-- <header class="nananana">(仮)そるそるシステム</header> -->
+<br/>
+  <h2 style="font-size:10px">そるそるシステム(仮)</h2>
+
+<br/>
+
+<form mrthod="get" action="index.html" >
+
+  <p style="font-size:x-small">
+  持参
+  </p>
+
+    <div class="mb-3">
+  <!-- <label for="formControlInput0" class="form-label" style="font-size:x-small">持参</label> -->
+  <input type="bg" class="form-control1" id="formControlInput0" placeholder="部荷物" style="font-size:small"> 
+  <!-- <label for="formControlInput1" class="form-label"></label> -->
+  <input type="bg" class="form-control1" id="formControlInput1" placeholder="ゴール" style="font-size:small">
+</div>
+
+</form>
+
+<!-- <br/> -->
+
+<!-- <body>
+    <div class="mb-3">
+  <label for="formControlInput1" class="form-label"></label>
+  <input type="bg" class="form-control" id="formControlInput1" placeholder="ゴール">
+</div> -->
+
+<body>
+
+  <p style="font-size:x-small">
+  持ち帰り
+  </p>
+    <!-- <div class="mb-3">
+  <label for="formControlInput2" class="form-label" style="font-size:x-small">持ち帰り</label> -->
+  <input type="bg" class="form-control1" id="formControlInput2" placeholder="部荷物" style="font-size:small">
+  <!-- <label for="formControlInput3" class="form-label"></label> -->
+  <input type="bg" class="form-control1" id="formControlInput3" placeholder="ゴール" style="font-size:small">
+</div>
+
+<!-- <body>
+    <div class="mb-3">
+  <label for="formControlInput3" class="form-label"></label>
+  <input type="bg" class="form-control" id="formControlInput3" placeholder="ゴール">
+</div> -->
+
+<!-- <br/> -->
 
 
-/*入力欄*/
+
+  <p style="font-size:x-small">
+  メンバー
+  </p>
+
+    <div class="mb-3">
+      <!-- <label for="formControlInput4" class="form-label" style="font-size:x-small">メンバー</label> -->
+  <input type="bg" class="form-control2" id="formControlInput4" placeholder="持参できる人" style="font-size:small">
+ <!--  <label for="formControlInput5" class="form-label"></label> -->
+  <input type="bg" class="form-control2" id="formControlInput5" placeholder="持ち帰りできる人" style="font-size:small">
+</div>
+
+<!-- <body>
+    <div class="mb-3">
+  <label for="formControlInput5" class="form-label"></label>
+  <input type="bg" class="form-control" id="formControlInput5" placeholder="持ち帰りできる人">
+</div> -->
 
 
 
-/*.form-label{
-	display: block;
-	width: 7em;
-	margin: 5px;
-	background: #EFEFEF;
-	border: none;
-}*/
+<div class="form-label" style="font-size:x-small">
+  参加部員リスト
+</div>
 
+<body>
+<!-- <button type="button" class="btn btn-outline-primary">月</button>
+<button type="button" class="btn btn-outline-danger">火</button>
+<button type="button" class="btn btn-outline-info">水</button>
+<button type="button" class="btn btn-outline-success">木</button>
+<button type="button" class="btn btn-outline-warning">金</button>
+<button type="button" class="btn btn-outline-secondary">全</button> -->
 
-.form-control0{
-	/*display: block;*/
-	/*width: 200px;
-*/	/*margin: 20px 10px -20px 0px;*/
-	background: #ffffff;
-	/*border: none;*/
-	/*border-radius: 20% 20% 20% 20%/70% 70% 70% 70%;*/
-
-}
-
-.form-control1{
-	/*display: block;
-	width: 200px;*/
-	/*margin: 20px -4px 5px 10px;*/
-	background: #ffffff;
-	/*border: none;*/
-}
-
-
-.form-control2{
-	/*display: block;
-	width: 200px;*/
-	/*margin: -20px 10px 0px 0px;*/
-	background: #ffffff;
-	/*border: none;*/
-}
-
-.form-control3{
-	display: block;
-	width: 80px;
-	/*margin: -5px 3px 0px;*/
-	background: #ffffff;
-	/*border: none;*/
-}
-
-
-/*枠お試し*/
-.mb-3 {
-  padding: 0px;
-  display: flex;
-  flex-wrap: wrap;
-}
-input {
-  background: #efefef;
-  border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
-  padding: 1%;
-  width: 100px;
-  margin: 0px 0px 0px 3px;
-}
- {
-  border: 1px inset #333;
-}
-.form-control1 {
-  border: 1px dotted #333;
-}
-.form-control2 {
-  border: 1px dashed #333;
-}
-.form-control0 {
-  border: 1px dotted #333;
-}
-
-
-/*曜日ボタン*/
-
-.moon,
-.fire,
-.water,
-.wood,
-.gold,
-.all {
-  color: #fff;
-  padding: 1%;
-  width: 40px;
-  height: 40px;
-  font-size:small;
-  text-align: center;
-  border: none;
-  margin: 0px -10px -10px 3px;
-  line-height:2px;
-  mix-blend-mode: multiply;
-}
-
-
-.moon{
-  background: #b0c4de;
-  border-radius: 30% 50% 50% 70%/50% 50% 70% 60%;
-}
-
-.fire{
-	background: #ff6347;
-  border-radius: 80% 30% 50% 50%/50%;
-}
-
-.water{
-	background: #4682b4;
-  border-radius: 40% 30% 50% 40%/30% 50% 50% 50%;
-}
-
-.wood{
-	background: #6b8e23;
-  border-radius: 50% 60% 50% 70%/50% 50% 70% 60%;
-}
-
-.gold{
-	background: #ffd700;
-  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
-}
-
-.all{
-	background: #f92;
-  border-radius: 30% 70% 50% 80%/50%;
-}
+<button type="button" class="moon" >月</button>
+<button type="button" class="fire">火</button>
+<button type="button" class="water">水</button>
+<button type="button" class="wood">木</button>
+<button type="button" class="gold">金</button>
+<button type="button" class="all">全</button>
 
 
 
 
+<script>
+  //持参・持ち帰りできるメンバーをアラートで表示
+document.getElementsByTagName('button')[0].addEventListener('click', () => {
+  window.alert('月持参・持ち帰り(来年の時間割わかったら反映させるね)');
+})
+document.getElementsByTagName('button')[1].addEventListener('click', () => {
+  window.alert('火持参・持ち帰り(わっほーい)');
+})
+document.getElementsByTagName('button')[2].addEventListener('click', () => {
+  window.alert('水持参・持ち帰り(いえいいえい)');
+})
+document.getElementsByTagName('button')[3].addEventListener('click', () => {
+  window.alert('木持参・持ち帰り(がんばれがんばれ)');
+})
+document.getElementsByTagName('button')[4].addEventListener('click', () => {
+  window.alert('金持参・持ち帰り(イエローイエロー)');
+})
+document.getElementsByTagName('button')[5].addEventListener('click', () => {
+  window.alert('はれ べあ ゆう らい るーく えいと えす きーま こう せれ そら てる とわ にと ふう りあ なる えるさ おり かおる なこ ぷら りく れい じぇりー はち りい かれん あお ありぃ うみ うる おく きよ しん ちゃい つくし なな なの のあ はお ふたば ぺこ めろ ゆあ ゆず らら りた りむ ふぃあ わい ころん さくら るん');
+})
+//document.getElementsByTagName('button')[6].addEventListener('click', () => {
+  //window.alert('はれ べあ ゆう らい るーく えいと えす きーま こう せれ そら てる とわ にと ふう りあ なる えるさ おり かおる なこ ぷら りく れい じぇりー はち りい かれん あお ありぃ うみ うる おく きよ しん ちゃい つくし なな なの のあ はお ふたば ぺこ めろ ゆあ ゆず らら りた りむ ふぃあ わい ころん さくら るん');
+//})
+
+</script>
+</body>
+
+<br/>
+<br/>
+
+<body>
+
+<div id="div4"></div>
+<input type="button" class="form-control3" value="スタート" onclick="clickBtn7()">
+
+
+<script>
+function clickBtn7(){
+  const div4 = document.getElementById("div4");
+  
+  
+
+     let 行部荷物 = document.getElementById("formControlInput0").value;
+
+     let aBunimotsu = 行部荷物.split(" ");
+
+         
+
+
+     let 行豪琉 = document.getElementById("formControlInput1").value;
+
+     let aGoal = 行豪琉.split(" ");
+
+         
+
+
+     let 帰部荷物 = document.getElementById("formControlInput2").value;
+
+     let bBunimotsu = 帰部荷物.split(" ");
+
+         
+     let 帰豪琉 = document.getElementById("formControlInput3").value;
+
+     let bGoal = 帰豪琉.split(" ");
+
+        
+
+     let 行部員 = document.getElementById("formControlInput4").value;
+
+     let aBuin = 行部員.split(" ");
+
+     let 帰部員 = document.getElementById("formControlInput5").value;
+
+     let bBuin = 帰部員.split(" ");
+
+     
+
+     let 全部員 = ['はれ','べあ','ゆう','らい','るーく','えいと','えす','きーま','こう','せれ','そら','てる','とわ','にと','ふう','りあ','なる','えるさ','おり','かおる','なこ','ぷら','りく','れい','じぇりー','はち','りい','かれん','あお','ありぃ','うみ','うる','おく','きよ','しん','ちゃい','つくし','なな','なの','のあ','はお','ふたば','ぺこ','めろ','ゆあ','ゆず','らら','りた','りむ','ふぃあ','わい','ころん','さくら','るん'];
+
+
+        //部荷物持参
+        const getArraysIntersect2 = (array21, array22) => {
+          return [...new Set(array21)].filter(value => array22.includes(value));
+         }
+          const array21 = aBunimotsu,
+                array22 = 全部員;
+        const aaBunimotsu = getArraysIntersect2(array21, array22);
+
+        //ゴール持参
+        const getArraysIntersect3 = (array23, array24) => {
+          return [...new Set(array23)].filter(value => array24.includes(value));
+         }
+          const array23 = aGoal,
+                array24 = 全部員;
+        const aaGoal = getArraysIntersect3(array23, array24);
+
+        //部荷物持ち帰り
+        const getArraysIntersect4 = (array25, array26) => {
+          return [...new Set(array25)].filter(value => array26.includes(value));
+         }
+          const array25 = bBunimotsu,
+                array26 = 全部員;
+
+        const bbBunimotsu = getArraysIntersect4(array25, array26);
+
+        //ゴール持ち帰り
+        const getArraysIntersect5 = (array27, array28) => {
+          return [...new Set(array27)].filter(value => array28.includes(value));
+         }
+          const array27 = bGoal,
+                array28 = 全部員;
+
+        const bbGoal = getArraysIntersect5(array27, array28);
+
+
+
+     let 行使用済 = aaBunimotsu.concat(aaGoal);
+
+     let 帰使用済 = bbBunimotsu.concat(bbGoal);
+
+     let 部荷物使用済 = aaBunimotsu.concat(bbBunimotsu);
+
+     let 豪琉使用済 = aaGoal.concat(bbGoal);
+
+
+   
 
 
 
@@ -216,87 +258,234 @@ input {
 
 
 
-/*.circle-1,
-.circle-2,
-.circle-3 {
-  color: #fff;
-  padding: 5%;
-  width: 180px;
-  height: 180px;
-  margin: 0 -15px;
-  mix-blend-mode: multiply;
-}
-.circle-1 {
-  background: #f66;
-  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
-}
-.circle-2 {
-  background: #f92;
-  border-radius: 80% 30% 50% 50%/50%;
-}
-.circle-3 {
-  background: #fc2;
-  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
-}
+     //部荷物もゴールもある人
+    ///持参
+  　  const getArraysIntersect0 = (array01, array02) => {
+      return [...new Set(array01)].filter(value => array02.includes(value));
+     }
+      const array01 = aBunimotsu,
+            array02 = aGoal;
+//       //document.write(getArraysIntersect0(array01, array02));
 
-body {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  background: #ffd;
-}
+    ///持ち帰り
+      const getArraysIntersect1 = (array03, array04) => {
+      return [...new Set(array03)].filter(value => array04.includes(value));
+     }
+      const array03 = bBunimotsu,
+            array04 = bGoal;
+      //document.write(getArraysIntersect1(array03, array04));
 
-@media (max-width: 600px) {
-  body {
-    flex-direction: column;
+
+    //部荷物もゴールもない人
+    ///持参
+      const getArraysDiff0 = (array05, array06) => {
+      const arr05 = [...new Set(array05)],
+            arr06 = [...new Set(array06)];
+        return [...arr05, ...arr06].filter(value => !arr05.includes(value) || !arr06.includes(value));
+      }
+
+      const array05 = 行使用済,
+            array06 = aBuin;
+//       //document.write(getArraysDiff0(array05, array06));
+
+    ///持ち帰り
+      const getArraysDiff1 = (array07, array08) => {
+      const arr07 = [...new Set(array07)],
+            arr08 = [...new Set(array08)];
+        return [...arr07, ...arr08].filter(value => !arr07.includes(value) || !arr08.includes(value));
+      }
+
+      const array07 = 帰使用済,
+            array08 = bBuin;
+//       //document.write(getArraysDiff1(array07, array08));
+
+
+      
+
+      //部荷物詳細
+　　　 ///持参ない
+        const getArraysDiff2 = (array09, array10) => {
+        const arr09 = [...new Set(array09)],
+              arr10 = [...new Set(array10)];
+        return [...arr09, ...arr10].filter(value => !arr09.includes(value) || !arr10.includes(value));
+      }
+      const array09 = aaBunimotsu,
+            array10 = aBuin;
+      //const nemui0 = getArraysDiff2(array09, array10);
+//       //document.write(getArraysDiff1(array09, array10));
+
+      ///持ち帰りない
+        const getArraysDiff3 = (array11, array12) => {
+        const arr11 = [...new Set(array11)],
+              arr12 = [...new Set(array12)];
+        return [...arr11, ...arr12].filter(value => !arr11.includes(value) || !arr12.includes(value));
+      }
+
+      const array11 = bbBunimotsu,
+            array12 = bBuin;
+      //const nemui1 = getArraysDiff3(array11, array12);
+//       //document.write(getArraysDiff3(array11, array12));
+
+      ///持参も持ち帰りもない
+     //  const getArraysIntersect2 = (array13, array14) => {
+     //  return [...new Set(array13)].filter(value => array14.includes(value));
+     // }
+     //  const array13 = nemui0,
+     //        array14 = nemui1;
+
+//      //document.write(getArraysIntersect2([...array13, ...array14]));
+       
+       
+
+
+       //ゴール詳細
+        const getArraysDiff4 = (array15, array16) => {
+        const arr15 = [...new Set(array15)],
+              arr16 = [...new Set(array16)];
+        return [...arr15, ...arr16].filter(value => !arr15.includes(value) || !arr16.includes(value));
+      }
+
+      const array15 = aaGoal,
+            array16 = aBuin;
+      //const nemui2 = getArraysDiff4(array15, array16);
+// //       //document.write(getArraysDiff4(array15, array16));
+
+      ///持ち帰りない
+        const getArraysDiff5 = (array17, array18) => {
+        const arr17 = [...new Set(array17)],
+              arr18 = [...new Set(array18)];
+        return [...arr17, ...arr18].filter(value => !arr17.includes(value) || !arr18.includes(value));
+      }
+
+      const array17 = bbGoal,
+            array18 = bBuin;
+      //const nemui3 = getArraysDiff5(array17, array18);
+// //       //document.write(getArraysDiff5(array17, array18));
+
+      ///持参も持ち帰りもない
+     //  const getArraysIntersect3 = (array19, array20) => {
+     //  return [...new Set(array19)].filter(value => array20.includes(value));
+     // }
+     //  const array19 = nemui2,
+     //        array20 = nemui3;
+      
+      
+// // //       //document.write(getArraysIntersect3([...array19, ...array20]));
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    if (!div4.hasChildNodes()){
+    const p1 = document.createElement("p");
+    const text1 = document.createTextNode("どっちもある人");
+    p1.appendChild(text1);
+    div4.appendChild(p1);
+
+    const p2 = document.createElement("p");
+    const text2 = document.createTextNode("(持参)→"　+ getArraysIntersect0(array01, array02));
+    p2.appendChild(text2);
+    div4.appendChild(p2);
+
+    // const p3 = document.createElement("p");
+    // const text3 = document.createTextNode();
+    // p3.appendChild(text3);
+    // div4.appendChild(p3);
+
+    const p4 = document.createElement("p");
+    const text4 = document.createTextNode("(持ち帰り)→" + getArraysIntersect1(array03, array04));
+    p4.appendChild(text4);
+    div4.appendChild(p4);
+
+    const p5 = document.createElement("p");
+    const text5 = document.createTextNode("どっちもない人");
+    p5.appendChild(text5);
+    div4.appendChild(p5);
+
+    const p6 = document.createElement("p");
+    const text6 = document.createTextNode("(持参)→" + getArraysDiff0(array05, array06));
+    p6.appendChild(text6);
+    div4.appendChild(p6);
+
+    // const p7 = document.createElement("p");
+    // const text7 = document.createTextNode();
+    // p7.appendChild(text7);
+    // div4.appendChild(p7);
+
+    const p8 = document.createElement("p");
+    const text8 = document.createTextNode("(持ち帰り)→" + getArraysDiff1(array07, array08));
+    p8.appendChild(text8);
+    div4.appendChild(p8);
+
+    const p9 = document.createElement("p");
+    const text9 = document.createTextNode("部荷物");
+    p9.appendChild(text9);
+    div4.appendChild(p9);
+
+    const p10 = document.createElement("p");
+    const text10 = document.createTextNode("(持参なし→)" + getArraysDiff1(array09, array10));
+    p10.appendChild(text10);
+    div4.appendChild(p10);
+
+    // const p11 = document.createElement("p");
+    // const text11 = document.createTextNode();
+    // p11.appendChild(text11);
+    // div4.appendChild(p11);
+
+    const p12 = document.createElement("p");
+    const text12 = document.createTextNode("(持ち帰りなし→)" + getArraysDiff3(array11, array12));
+    p12.appendChild(text12);
+    div4.appendChild(p12);
+
+    const p13 = document.createElement("p");
+    const text13 = document.createTextNode("ゴール");
+    p13.appendChild(text13);
+    div4.appendChild(p13);
+
+    const p14 = document.createElement("p");
+    const text14 = document.createTextNode("(持参なし→)" + getArraysDiff4(array15, array16));
+    p14.appendChild(text14);
+    div4.appendChild(p14);
+
+    // const p15 = document.createElement("p");
+    // const text15 = document.createTextNode();
+    // p15.appendChild(text15);
+    // div4.appendChild(p15);
+
+    const p16 = document.createElement("p");
+    const text16 = document.createTextNode("(持ち帰りなし→)" + getArraysDiff5(array17, array18));
+    p16.appendChild(text16);
+    div4.appendChild(p16);
+    
+
   }
-}*/
-
-/*.btnbtn-outline-primary,
-.circle-2,
-.circle-3 {
-  color: #fff;
-  padding: 5%;
-  width: 180px;
-  height: 180px;
-  margin: 0 -15px;
-  mix-blend-mode: multiply;
-}
-.btnbtn-outline-primary {
-  background: #f66;
-  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
-}
-.circle-2 {
-  background: #f92;
-  border-radius: 80% 30% 50% 50%/50%;
-}
-.circle-3 {
-  background: #fc2;
-  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  background: #ffd;
-}
+</script>
 
-@media (max-width: 600px) {
-  body {
-    flex-direction: column;
-  }
-}
-*/
+<!-- <div class="circle-1">
+  <p>Praesent nec erat urna. Integer feugiat vel libero id porta. Aenean elementum lectus vitae est fringilla iaculis. Nulla aliquet sem pulvinar.</p>
+</div>
 
+<div class="circle-2">
+  <p>Suspendisse eros augue, gravida sed interdum at, laoreet vel sem. Pellentesque auctor hendrerit, sit amet interdum nisl aliquam. Nunc vel porttitor augue.</p>
+</div>
 
+<div class="circle-3">
+  <p>Integer ultrices a nulla sit amet aliquet. Praesent quis gravida turpis. Donec viverra venenatis pulvinar. Sed ut luctus mauris, in pulvinar turpis. Donec sodales velit consequat.</p>
+</div> -->
 
+<link rel="stylesheet" href="index.css">
 
+<!--<script src="solsolsystem.js"></script>!-->
+</body>
 
-
-
-
-
-
-
-
+</html>
