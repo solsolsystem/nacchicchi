@@ -49,7 +49,7 @@ h2 {
   margin:3px 0px 0px 17px;
   padding: 0.5rem 1rem 0.5rem 1rem;
   color: #fff;
-  background: #cd853f;
+  background: #594639;
 }
 
 h2:before {
@@ -59,7 +59,7 @@ h2:before {
   content: '';
   border-width: 14px 17px 14px 0;
   border-style: solid;
-  border-color: transparent #cd853f transparent transparent;
+  border-color: transparent #594639 transparent transparent;
 }
 
 h2:after {
@@ -121,7 +121,7 @@ h2:after {
 
 .form-control3{
 	display: block;
-	width: 80px;
+	width: 70px;
 	/*margin: -5px 3px 0px;*/
 	background: #fff8dc;
 	/*border: none;*/
@@ -148,7 +148,7 @@ input {
   padding: 1.1%;
   width: 100px;
   margin: 0px 0px 0px 3px;
-  background: #fff8dc;
+  background: #fff;
 }
 .form-control3{
   border-radius: 240px 13px 90px 13px / 13px 200px 13px 185px;
@@ -226,7 +226,11 @@ input {
 
 
 
-
+/*結果*/
+.result{
+	font-size:x-small;
+	color: #594639;
+}
 
 
 
