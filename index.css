@@ -46,9 +46,10 @@ h2 {
   display: inline-block;
   height: 1em 0;
   margin-left: 20px;
+  margin:3px 0px 0px 17px;
   padding: 0.5rem 1rem 0.5rem 1rem;
   color: #fff;
-  background: #4682b4;
+  background: #cd853f;
 }
 
 h2:before {
@@ -58,7 +59,7 @@ h2:before {
   content: '';
   border-width: 14px 17px 14px 0;
   border-style: solid;
-  border-color: transparent #4682b4 transparent transparent;
+  border-color: transparent #cd853f transparent transparent;
 }
 
 h2:after {
@@ -95,7 +96,7 @@ h2:after {
 	/*display: block;*/
 	/*width: 200px;
 */	/*margin: 20px 10px -20px 0px;*/
-	background: #ffffff;
+	/*background: #ffffff;*/
 	/*border: none;*/
 	/*border-radius: 20% 20% 20% 20%/70% 70% 70% 70%;*/
 
@@ -104,8 +105,8 @@ h2:after {
 .form-control1{
 	/*display: block;
 	width: 200px;*/
-	/*margin: 20px -4px 5px 10px;*/
-	background: #ffffff;
+	margin: 0px -4px 0px 3px;
+	/*background: #ffffff;*/
 	/*border: none;*/
 }
 
@@ -114,7 +115,7 @@ h2:after {
 	/*display: block;
 	width: 200px;*/
 	/*margin: -20px 10px 0px 0px;*/
-	background: #ffffff;
+	/*background: #ffffff;*/
 	/*border: none;*/
 }
 
@@ -122,8 +123,18 @@ h2:after {
 	display: block;
 	width: 80px;
 	/*margin: -5px 3px 0px;*/
-	background: #ffffff;
+	background: #fff8dc;
 	/*border: none;*/
+}
+
+
+
+/*文字*/
+.jii,
+.mochi,
+.mem,
+.san{
+	margin: 15px 0px 10px 3px;
 }
 
 
@@ -134,23 +145,30 @@ h2:after {
   flex-wrap: wrap;
 }
 input {
-  background: #efefef;
-  border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
-  padding: 1%;
+  padding: 1.1%;
   width: 100px;
   margin: 0px 0px 0px 3px;
+  background: #fff8dc;
 }
- {
-  border: 1px inset #333;
+.form-control3{
+  border-radius: 240px 13px 90px 13px / 13px 200px 13px 185px;
+  border: 1px solid #333;
+  border-color: #8b4513
 }
 .form-control1 {
+  border-radius: 200px 15px 110px 15px / 20px 200px 15px 185px;
   border: 1px dotted #333;
+  border-color: #8b4513
 }
 .form-control2 {
+  border-radius: 200px 15px 100px 15px / 15px 190px 15px 185px;
   border: 1px dashed #333;
+  border-color: #8b4513
 }
 .form-control0 {
+  border-radius: 15px 240px 15px 120px / 240px 15px 185px 15px;
   border: 1px dotted #333;
+  border-color: #8b4513
 }
 
 
@@ -201,7 +219,7 @@ input {
 }
 
 .all{
-	background: #f92;
+	background: #db7093;
   border-radius: 30% 70% 50% 80%/50%;
 }
 
